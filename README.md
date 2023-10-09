@@ -1,8 +1,6 @@
 # NalaNews Backend Node.js Express.js RESTful API
 
-<em> The frontend of this project can be found [here (Angular)](https://github.com/chesspamungkas/nalanews-frontend) </em>
-
-<!-- <em> Visit complete live project [nalanews-chesspamungkas.netlify.app](https://nalanews-chesspamungkas.netlify.app) </em> -->
+<em> The frontend of this project can be found [here (Angular)](https://github.com/chesspamungkas/nalanews-backend) </em>
 
 ### Contents
 
@@ -16,7 +14,7 @@
 
 - Users/Authors can create their profiles (token-based authentication)
 - Users/Authors can edit their profile
-- Users/Authors can create blogs. They can set the country of their blog (i.e. philipines, united states, united kingdom etc)
+- Users/Authors can create blogs. They can set the country of their blog (i.e. philipines, unites states, united kingdom etc)
 - Users/Authors can create blogs. They can set the category of their blog (i.e. business, entertainment, general etc)
 - Blogs of a particular country can be viewed
 - Blogs of a particular category can be viewed

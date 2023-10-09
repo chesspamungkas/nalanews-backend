@@ -111,7 +111,7 @@ const getBlogCountryList = async(req, res, next) => {
             searchParams.country = countryId
         }
 
-        let selectFields = 'cover_image news_title published';
+        let selectFields = 'cover_image news_title published body excerpt external_link';
         let perPage = pageSize;
         let page = req.query.page && req.query.page > 0 ? req.query.page-1 : 0;
         
@@ -143,7 +143,7 @@ const getBlogCategoryList = async(req, res, next) => {
             searchParams.category = categoryId
         }
 
-        let selectFields = 'posted title cover_image';
+        let selectFields = 'cover_image news_title published body excerpt external_link';
         let perPage = pageSize;
         let page = req.query.page && req.query.page > 0 ? req.query.page-1 : 0;
 
@@ -180,7 +180,7 @@ const getBlogCountryUserList = async(req, res, next) => {
             searchParams.country = countryId
         }
 
-        let selectFields = 'posted title cover_image';
+        let selectFields = 'cover_image news_title published body excerpt external_link';
         let perPage = pageSize;
         let page = req.query.page && req.query.page > 0 ? req.query.page-1 : 0;
 
@@ -217,7 +217,7 @@ const getBlogCategoryUserList = async(req, res, next) => {
             searchParams.category = categoryId
         }
 
-        let selectFields = 'posted title cover_image';
+        let selectFields = 'cover_image news_title published body excerpt external_link';
         let perPage = pageSize;
         let page = req.query.page && req.query.page > 0 ? req.query.page-1 : 0;
 
